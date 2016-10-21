@@ -1,0 +1,134 @@
+.flex-container {
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+}
+
+.flex-item {  width: 160px;
+  height: 160px;
+    -ms-transform: rotateY(92deg); /* IE 9 */
+    -webkit-transform: rotateY(92deg); /* Chrome, Safari, Opera */
+    transform: rotateY(92deg);
+}
+
+@media screen and (max-width: 450px) {   
+        .flex-item{
+          width: 85px;
+          height: 85px;
+          
+        }
+}
+
+
+@media screen and (max-width: 350px) {   
+        .flex-item{
+          width: 70px;
+          height: 70px;
+          
+        }
+}
+
+.flex-item:hover {
+    -ms-transform: rotateY(0deg); /* IE 9 */
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    transform: rotateY(0deg);
+  }
+
+.flex-text {  
+    display: none;
+    position: absolute;
+    top: -10px;
+    width: 350px;
+    height: 444px;
+    padding: 20px;
+    background-color: white;
+}
+
+@media screen and (max-width: 450px) {   
+        .flex-text{
+          position: absolute;
+          top: -10px;
+          left:0px;
+          width: 90%;
+          height: 400px;
+          background-color: white;
+          z-index: 10;
+        }
+}
+
+@media screen and (min-width: 450px) {   
+        .flex-text{
+          position: absolute;
+          top: -20px;
+          left:0px;
+          width: 90%;
+          height: 600px;
+          background-color: white;
+          font-size: 14pt;
+          z-index: 10;
+        }
+}
+
+p::selection {
+  background: #D9E136;
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.norotate{
+    -ms-transform: rotateY(0deg); /* IE 9 */
+    -webkit-transform: rotateY(0deg); /* Chrome, Safari, Opera */
+    transform: rotateY(0deg);
+}
+
+.button1{
+    margin: 40%;
+}
+
+.button1:hover {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+  }
+
+.button2{
+    margin: 40%;
+}
+
+.button2:hover {
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+  }
+.caption{
+    color:#E62082;
+  font-family: "Andale Mono",AndaleMono,monospace;
+  text-align: center;
+  
+}
+
+a{color:#E62082;
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #D9E136;
+}
+
+a:visited{
+  color: #D9E136;
+  text-decoration: none;
+
+}
