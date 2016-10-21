@@ -1,3 +1,3 @@
 # origamitypography
 Kinetic typography with origami
-www.origamitypography.com
+www.origamitypography.uk
